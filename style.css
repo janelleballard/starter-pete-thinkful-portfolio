@@ -21,6 +21,12 @@ header {
   text-align: center;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -35,6 +41,17 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+.about {
+  display: flex;
+
+}
+
+.portfolio {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
 }
 
 /* Paragraphs */
